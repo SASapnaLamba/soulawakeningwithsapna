@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Book a Session</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo"><img src="images/Screenshot 2025-09-27 at 12.45.36 PM.png" alt="Sapna"></div>
+      <h1>Soul Awakening with Sapna Lamba</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h2>Book a Session</h2>
+      <p class="intro">Reach out to book an Akashic Record Reading or Life Coaching session. Online & in-person options available. Please use the form or contact directly via phone or email.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h4>Contact Details</h4>
+          <p>Phone: <a href="tel:+919999915305">9999915305</a></p>
+          <p>Email: <a href="mailto:sapna_nandy18@yahoo.co.in">sapna_nandy18@yahoo.co.in</a></p>
+          <p class="small">Instagram: <a href="https://www.instagram.com/soulawakeningwithsapna/" target="_blank">@soulawakeningwithsapna</a></p>
+          <p class="small">Available: Online & In-person</p>
+        </div>
+
+        <div class="form-card">
+          <!-- IMPORTANT: Replace ACTION_URL with your Formspree form URL after creating the form (instructions included in README.txt) -->
+          <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <label for="name">Full name</label>
+            <input id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="_replyto" type="email" required>
+
+            <label for="phone">Phone (optional)</label>
+            <input id="phone" name="phone" type="tel">
+
+            <label for="service">Service interested in</label>
+            <select id="service" name="service" required>
+              <option value="akashic">Akashic Record Reading</option>
+              <option value="coaching">Life Coaching</option>
+              <option value="both">Both / Unsure</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+            <p class="form-note">After creating a free Formspree form and replacing the form ACTION URL in this file, submissions will be emailed to sapna_nandy18@yahoo.co.in</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer center">
+  <div class="container">© 2025 Soul Awakening with Sapna Lamba — Call: <span class="kv">9999915305</span> — Email: <a href="mailto:sapna_nandy18@yahoo.co.in">sapna_nandy18@yahoo.co.in</a></div>
+</footer>
+
+</body>
+</html>
